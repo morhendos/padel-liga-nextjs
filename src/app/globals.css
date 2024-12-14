@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .bg-gradient-radial {
+    background-image: radial-gradient(circle at center, var(--tw-gradient-stops));
+  }
+}
+
 body {
   @apply min-h-screen bg-gradient-radial from-padel-light to-padel-dark p-5;
 }
