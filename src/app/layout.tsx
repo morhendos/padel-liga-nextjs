@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Battle Padel League',
-  description: 'Modern padel league standings tracker',
+  description: 'Create League with your friends',
 }
 
 export default function RootLayout({
