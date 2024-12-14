@@ -2,12 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .bg-gradient-radial {
-    background-image: radial-gradient(circle at center, var(--tw-gradient-stops));
-  }
+:root {
+  --brand-primary: #7A735B;
+  --brand-secondary: #9A9283;
+  --brand-background: #E8E6E3;
 }
 
 body {
-  @apply min-h-screen bg-gradient-radial from-padel-light to-padel-dark p-5;
+  background: var(--brand-background);
+  min-height: 100vh;
+}
+
+.logo-text {
+  letter-spacing: 2px;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
 }
