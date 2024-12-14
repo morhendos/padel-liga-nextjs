@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .logo-text { fill: #7A735B; font-family: Arial, sans-serif; font-weight: bold; }
-    .subtitle { fill: #9A9283; font-family: serif; font-style: italic; }
-  </style>
-  <text x="400" y="80" class="logo-text" text-anchor="middle" font-size="72">BATTLE PADEL</text>
-  <text x="400" y="140" class="subtitle" text-anchor="middle" font-size="32">Create League with your friends</text>
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&amp;display=swap');
+    </style>
+  </defs>
+  
+  <rect width="800" height="200" fill="#E8E6E3"/>
+  
+  <!-- Battle Padel text with geometric style -->
+  <g fill="#7A735B">
+    <!-- B -->
+    <path d="M50,40 h40 l20,20 l-20,20 h-40 v-40 M50,80 h35 l15,15 l-15,15 h-35 v-30" />
+    <!-- A -->
+    <path d="M120,40 l25,-20 l25,20 v50 h-15 v-15 h-20 v15 h-15 v-50 M130,60 h30 v-10 l-15,-12 l-15,12 v10" />
+    <!-- T -->
+    <path d="M180,40 h50 v15 h-17.5 v45 h-15 v-45 h-17.5 v-15" />
+    <!-- T -->
+    <path d="M240,40 h50 v15 h-17.5 v45 h-15 v-45 h-17.5 v-15" />
+    <!-- L -->
+    <path d="M300,40 h15 v45 h35 v15 h-50 v-60" />
+    <!-- E -->
+    <path d="M360,40 h50 v15 h-35 v7.5 h30 v15 h-30 v7.5 h35 v15 h-50 v-60" />
+    
+    <!-- P -->
+    <path d="M450,40 h40 l20,20 l-20,20 h-40 v-40" />
+    <!-- A -->
+    <path d="M520,40 l25,-20 l25,20 v50 h-15 v-15 h-20 v15 h-15 v-50 M530,60 h30 v-10 l-15,-12 l-15,12 v10" />
+    <!-- D -->
+    <path d="M580,40 h40 l20,30 l-20,30 h-40 v-60" />
+    <!-- E -->
+    <path d="M650,40 h50 v15 h-35 v7.5 h30 v15 h-30 v7.5 h35 v15 h-50 v-60" />
+    <!-- L -->
+    <path d="M710,40 h15 v45 h35 v15 h-50 v-60" />
+  </g>
+
+  <!-- Create League with your friends text -->
+  <text x="400" y="150" 
+    font-family="Georgia, serif" 
+    font-size="32" 
+    font-style="italic"
+    fill="#7A735B" 
+    text-anchor="middle">
+    Create League with your friends
+  </text>
 </svg>
